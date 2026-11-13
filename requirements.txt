@@ -1,0 +1,3 @@
+PySide6>=6.6
+anthropic>=0.70
+keyring>=24

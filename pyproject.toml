@@ -1,0 +1,22 @@
+[project]
+name = "bluecredit"
+version = "1.0.0"
+description = "Simulador de crédito en español: cuota, costo real, capacidad de pago y alerta de usura"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ian · Blue Peak AI & Finance Solutions" }]
+dependencies = ["PySide6>=6.6", "anthropic>=0.70", "keyring>=24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6"]
+
+[project.gui-scripts]
+bluecredit = "bluecredit.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bluecredit"]
