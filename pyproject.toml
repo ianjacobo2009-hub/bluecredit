@@ -1,6 +1,6 @@
 [project]
 name = "bluecredit"
-version = "1.0.0"
+version = "2.0.0"
 description = "Simulador de crédito en español: cuota, costo real, capacidad de pago y alerta de usura"
 readme = "README.md"
 requires-python = ">=3.10"
